@@ -2,12 +2,50 @@
 
 :root {
     --primary-color: #007af3;
+    --link-color: #444444; 
 }
 
 body {
     background: #f2f2f2;
     margin: 0;
     font-family: 'Poppins';
+}
+
+a {
+    color: var(--link-color);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+section {
+    padding: 5em 2em;
+}
+
+label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+}
+
+input, textarea {
+    width: 100%;
+    padding: .8em;
+    margin-bottom: 1em;
+    border-radius: .3em;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+iframe {
+    width: 100%;
 }
 
 .navbar {
@@ -37,4 +75,111 @@ body {
     .mobile-menu {
         cursor: pointer;
     }
+}
+
+.primary-cta {
+    background: var(--primary-color);
+    color:white;
+    text-decoration: none;
+    padding: .6em 1.3em;
+    font-size: 1.4em;
+    border-radius: 5em;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.send-message-cta {
+    cursor: pointer;
+    width: unset;
+}
+
+.hero {
+    text-align: center;
+    
+    .left-col {
+
+        .subhead {
+            text-transform: uppercase;
+            font-weight: bold;
+            color: grey;
+            letter-spacing: .4em;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            line-height: 1.3em;
+            margin-top: .2em;
+        }
+
+        
+
+        .watch-video-cta {
+            display: block;
+            margin-top: 1em;
+
+            img {
+                margin-right: .5em;
+            }
+        }
+    }
+
+    .hero-image {
+        width: 70%;
+        margin-top: 3em;
+    }
+}
+
+.feature-section {
+    background: #20272E;
+    color:white;
+
+    img {
+        display: none;
+    }
+}
+
+ul.feature-list {
+    margin: 0;
+    padding-left: .1em;
+
+    li {
+        font-size: 1.1em;
+        margin-bottom: 1em;
+        margin-left: 2em;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height:20px;
+            background-image: url("../images/bullet.svg");
+            background-size: contain;
+            margin-right: .5em;
+            left: -2em;
+        }
+    }
+}
+
+.testimonials-section {
+    background: var(--primary-color);
+    color:white;
+
+     ul {
+         li {
+             background: #006BD6;
+             text-align: center;
+             padding: 2em 1em;
+             width: 80%;
+             margin: 0 auto 5em auto;
+             border-radius: 1em;
+             img {
+                 width: 5em;
+                 height: 5em;
+                 border: 5px solid #006BD6;
+                 border-radius: 50%;
+                 margin-top: -4.5em;
+             }
+         }
+     }
 }
