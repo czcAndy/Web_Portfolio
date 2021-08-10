@@ -12,9 +12,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -27,14 +24,13 @@ Users should be able to:
 
 ### Screenshot
 Desktop View Screenshot
-![Desktop View](./design/Desktop View.png)
+![Desktop View](./design/Desktop%20view.png)
 
-Mobile View Screenshot
-![Mobile View](./design/Mobile View.png)
+The Mobile View can be seen in the folder named design in the repository.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://czcandy.github.io/CSS_Portfolio/Project%203/)
+- Solution URL: [Click here](https://czcandy.github.io/CSS_Portfolio/Project%203/)
 
 ## My process
 
